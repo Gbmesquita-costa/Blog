@@ -76,11 +76,17 @@ export default function Post({ post }: PostProps): JSX.Element {
           <strong>{post.data.title}</strong>
 
           <div className={commonStyles.common}>
-            <FiCalendar className={commonStyles.calendario} /> {newDate}
+            <span>
+              <FiCalendar className={commonStyles.calendario} /> {newDate}
+            </span>
 
-            <FiUser className={commonStyles.user} /> {post.data.author}
+            <span>
+              <FiUser className={commonStyles.user} /> {post.data.author}
+            </span>
 
-            <FiClock className={commonStyles.clock} /> {`${readtime} min`}
+            <span>
+              <FiClock className={commonStyles.clock} /> {`${readtime} min`}
+            </span>
 
           </div>
 

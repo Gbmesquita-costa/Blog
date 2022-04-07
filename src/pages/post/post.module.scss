@@ -1,1 +1,43 @@
-// TODO
+.img {  
+    img {
+      width: 100%; 
+    }
+}
+
+.main {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .firstcontent {
+        a {
+            color: orange;
+            transition: 0.2s;
+
+            &:hover {
+                color: skyblue;
+            }
+        }
+
+        strong {
+            display: block;
+            color: var(--heading);
+            font-size: 2.5rem;
+            margin-top: 50px;
+        }
+        .content {
+            margin-top: 64px;
+
+            strong {
+                color: var(--heading);
+                font-size: 1.8rem;
+            }
+
+            p {
+                margin-top: 50px;
+                color: var(--info);
+            }
+        }
+    }
+}

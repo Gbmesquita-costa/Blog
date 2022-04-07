@@ -1,1 +1,25 @@
-// TODO
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 20px;
+
+    .div {
+        margin-top: 48px;
+        max-width: 700px;
+        strong {
+            color: var(--heading);
+            font-size: 1.8rem;
+        }
+
+        p {
+            margin-top: 19.2px;
+            color: var(--body);
+        }
+    }
+
+    button {
+        color: var(--button);
+        background: var(--background-black);
+        margin-top: 68.28px;
+    }
+}

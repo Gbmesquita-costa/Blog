@@ -1,7 +1,48 @@
+:root {
+  --background-black: #1A1D23;
+  --heading: #F8F8F8;
+  --button: #FF57B2;
+  --body: #D7D7D7;
+  --info: #BBBBBB;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Inter";
 }
 
-// TODO
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.50%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  background: var(--background-black);
+}
+
+body, input, select, textarea, button, a {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
